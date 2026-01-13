@@ -1,0 +1,19 @@
+{
+    "user.py": {
+        "lines_of_code": 8,
+        "functions": 2,
+        "imports": [
+            "import os",
+            "import sys"
+        ],
+        "is_complex": false
+    },
+    "utils.py": {
+        "lines_of_code": 4,
+        "functions": 1,
+        "imports": [
+            "import json"
+        ],
+        "is_complex": false
+    }
+}
