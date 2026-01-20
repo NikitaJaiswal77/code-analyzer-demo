@@ -30,6 +30,7 @@ Day 1:
 
 ---
 
+
 ## 📂 Project Structure
 project_scanner/
 ├── scanner.py
