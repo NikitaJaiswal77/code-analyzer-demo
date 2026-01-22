@@ -6,26 +6,25 @@ The goal of this project is not perfection, but to understand how
 codebases can be analyzed using simple rules and metrics.
 
 ---
+A Python-based Code Analyzer that uses Retrieval-Augmented Generation (RAG) to analyze a Python codebase, explain code behavior in natural language, and detect unimplemented functions.
 
-## 🎯 What does this tool do?
+This project provides an interactive CLI where users can ask questions about their code and receive intelligent, context-aware answers powered by an LLM.
 
-- Scans Python files in a project
-- Collects:
-  - Number of functions
-  - Lines of code
-  - Imported modules
-- Flags files as "complex" using configurable rules
-- Outputs results in JSON format
+ Features
 
----
+- Loads and analyzes a Python codebase using FAISS vector storage
 
-## 🧠 Learning Journey
+- Retrieves relevant code snippets using semantic search
 
-Day 1:
-- Understood what static code analysis means
-- Explored how large projects like ERPNext organize code
-- Implemented file scanning using Python
-- Learned how to count functions and imports
+- Uses Flan-T5 to explain code behavior in plain English
+
+- Detects unimplemented functions (pass)
+
+- Explains specific functions like login, logout, helper
+
+- Interactive question–answer CLI interface
+
+- Explanation level configurable via YAM
 
 
 ---
