@@ -98,14 +98,14 @@ while True:
     query = input("Question: ").strip()
 
     if not query:
-        print("⚠️ Please ask a code-related question.\n")
+        print(" Please ask a code-related question.\n")
         continue
 
     if query.lower() == "exit":
-        print("👋 Exiting chat.")
+        print(" Exiting chat.")
         break
 
-    print("🤖 Thinking...")
+    print(" Thinking...")
     result = qa.invoke({"query": query})
     docs = result.get("source_documents", [])
     context = "\n".join(doc.page_content for doc in docs)
